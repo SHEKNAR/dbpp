@@ -75,10 +75,10 @@
 		</dependency>
 
 		<!-- in-memory database -->
-		<dependency>
+		<!--<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -97,7 +97,7 @@
 	<build>
 
 		<plugins>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 
@@ -116,7 +116,7 @@
 					</execution>
 				</executions>
 
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 
