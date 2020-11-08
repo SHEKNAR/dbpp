@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="e-MobileConnect" />
+        <module name="e-mobileconnectmodel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="e-MobileConnect" target="1.6" />
+      <module name="e-mobileconnectmodel" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="e-mobileconnectmodel" options="-parameters" />
+    </option>
   </component>
 </project>
