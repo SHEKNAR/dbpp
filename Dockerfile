@@ -5,7 +5,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/e-MobileConnect-0.0.1-SNAPSHOT.jars
+ARG JAR_FILE=target/dbpp-0.0.1-SNAPSHOT.jars
 
 # cd /opt/app
 WORKDIR /opt/app
